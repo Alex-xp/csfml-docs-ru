@@ -26,14 +26,14 @@
 ```
 <hr/>
 
-- [Types.h](System/Types.h.md) - базовые типы модуля system
-- [Time.h](System/Time.h.md) - представление системного временем
-- [Clock.h](System/Clock.h.md) - управление временем
-- [Sleep.h](System/Sleep.h.md) - пауза
-- [Sleep.h](System/Vector2.h.md) - описание двумерного вектора
-- [Sleep.h](System/Vector3.h.md) - описание трехмерного вектора
-- [InputStream.h](System/InputStream.h.md) - поток ввода
-- [Thread.h](System/Thread.h.md) - подпроцесс
-- [Mutex.h](System/Mutex.h.md)- синхронизация доступа
+- [System/Types.h](System/Types.h.md) - базовые типы модуля system
+- [System/Time.h](System/Time.h.md) - представление системного временем
+- [System/Clock.h](System/Clock.h.md) - управление временем
+- [System/Sleep.h](System/Sleep.h.md) - пауза
+- [System/Sleep.h](System/Vector2.h.md) - описание двумерного вектора
+- [System/Sleep.h](System/Vector3.h.md) - описание трехмерного вектора
+- [System/InputStream.h](System/InputStream.h.md) - поток ввода
+- [System/Thread.h](System/Thread.h.md) - подпроцесс
+- [System/Mutex.h](System/Mutex.h.md)- синхронизация доступа
 
 
