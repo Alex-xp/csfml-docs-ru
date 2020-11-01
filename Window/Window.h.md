@@ -290,7 +290,7 @@ CSFML_WINDOW_API sfVector2u sfWindow_getSize(const sfWindow* window);
 Аргументы:
 
 - **const sfWindow* window** - ссылка на окно
-- **sfVector2u size** - новый размер окна (см [[сsfml:сsfml-System.Vector2|Vector2.h - описание двумерного вектора]])
+- **sfVector2u size** - новый размер окна (см Vector2.h - описание двумерного вектора)
 
 ** Возвращаемое значение: void **
 
@@ -579,7 +579,7 @@ CSFML_WINDOW_API void sfWindow_display(sfWindow* window);
 
 - **const sfWindow* window** - ссылка на окно
 
-** Возвращаемое значение: sfWindowHandle ** - дескриптор окна (см. [[сsfml:сsfml-Window.WindowHandle|WindowHandle.h]])
+** Возвращаемое значение: sfWindowHandle ** - дескриптор окна (см. WindowHandle.h)
 
 ```c
 CSFML_WINDOW_API sfWindowHandle sfWindow_getSystemHandle(const sfWindow* window);
