@@ -79,7 +79,7 @@ typedef struct
 - ``sfUint32 style`` - стили окна (см sfWindowStyle)
 - ``const sfContextSettings* settings`` - установки контекста окна (см sfContextAttribute)
 
-``Возвращаемое значение: sfWindow*`` - ссылка на созданное окно
+**Возвращаемое значение:** ``sfWindow*`` - ссылка на созданное окно
 
 ```c
 CSFML_WINDOW_API sfWindow* sfWindow_create(
@@ -102,7 +102,7 @@ CSFML_WINDOW_API sfWindow* sfWindow_create(
 - ``sfUint32 style`` - стили окна (см sfWindowStyle)
 - ``const sfContextSettings* settings`` - установки контекста окна (см sfContextAttribute)
 
-``Возвращаемое значение: sfWindow*`` - ссылка на созданное окно
+**Возвращаемое значение:** ``sfWindow*`` - ссылка на созданное окно
 
 ```c
 CSFML_WINDOW_API sfWindow* sfWindow_createUnicode(
@@ -125,7 +125,7 @@ CSFML_WINDOW_API sfWindow* sfWindow_createUnicode(
 - ``sfWindowHandle handle`` - элемент управления, из которого необходимо создать окно
 - ``const sfContextSettings* settings`` - расширенные параметры OpenGL
 
-``Возвращаемое значение: sfWindow*`` - ссылка на созданное окно
+**Возвращаемое значение:** ``sfWindow*`` - ссылка на созданное окно
 
 ```c
 CSFML_WINDOW_API sfWindow* sfWindow_createFromHandle(sfWindowHandle handle, const sfContextSettings* settings);
