@@ -30,10 +30,10 @@
 - [Time.h](System/Time.h.md) - представление системного временем
 - [Clock.h](System/Clock.h.md) - управление временем
 - [Sleep.h](System/Sleep.h.md) - пауза
-- [Sleep.h](Vector2/Vector2.h.md) - описание двумерного вектора
-- [Sleep.h](Vector3/Vector3.h.md) - описание трехмерного вектора
-- [InputStream.h](Vector3/InputStream.h.md) - поток ввода
-- [Thread.h](Vector3/Thread.h.md) - подпроцесс
-- [Mutex.h](Vector3/Mutex.h.md)- синхронизация доступа
+- [Sleep.h](System/Vector2.h.md) - описание двумерного вектора
+- [Sleep.h](System/Vector3.h.md) - описание трехмерного вектора
+- [InputStream.h](System/InputStream.h.md) - поток ввода
+- [Thread.h](System/Thread.h.md) - подпроцесс
+- [Mutex.h](System/Mutex.h.md)- синхронизация доступа
 
 
