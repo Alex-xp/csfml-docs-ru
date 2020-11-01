@@ -1,10 +1,31 @@
-# CSFML Описание библиотек на русском
+# Системные функции CSFML
 
-Этот перевод заголовочных файлов, предназначен, для предварительной подготовки описания возможностей встраивания CSFML в биндинги других языков программирования.
+```#include <SFML/System.h>```
+<hr/>
 
-## Системный модуль
+```c
+#ifndef SFML_SYSTEM_H
+#define SFML_SYSTEM_H
 
-- [System.h](System.h.md)
+////////////////////////////////////////////////////////////
+// Используемые заголовочные файлы
+////////////////////////////////////////////////////////////
+
+#include <SFML/Config.h>
+#include <SFML/System/Clock.h>
+#include <SFML/System/InputStream.h>
+#include <SFML/System/Mutex.h>
+#include <SFML/System/Sleep.h>
+#include <SFML/System/Thread.h>
+#include <SFML/System/Time.h>
+#include <SFML/System/Vector2.h>
+#include <SFML/System/Vector3.h>
+
+
+#endif // SFML_SYSTEM_H
+```
+<hr/>
+
 - [Types.h](System/Types.h.md) - базовые типы модуля system
 - [Time.h](System/Time.h.md) - представление системного временем
 - [Clock.h](System/Clock.h.md) - управление временем
@@ -16,4 +37,3 @@
 - [Mutex.h](Vector3/Mutex.h.md)- синхронизация доступа
 
 
-PS: Перевод уже готов на 100%, но в связи с переформатированием текстовой информации, его перенос на github может занять некоторое время.
