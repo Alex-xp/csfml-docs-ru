@@ -36,7 +36,7 @@ typedef enum
 ```
 <hr/>
 
-## sfContextAttribute - флаги контекста ======
+## sfContextAttribute - флаги контекста
 
 Перечисление флагов контекста окна.
 
@@ -68,7 +68,7 @@ typedef struct
 ```
 <hr/>
 
-## sfWindow_create - конструктор окна UTF-8 ======
+## sfWindow_create - конструктор окна UTF-8
 
 Создает новое окно и возвращает на него указатель.
 
