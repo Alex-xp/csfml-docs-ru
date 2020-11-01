@@ -74,10 +74,10 @@ typedef struct
 
 Аргументы:
 
-- **sfVideoMode mode** - режим окна (см VideoMode.h)
-- **const char* title** - заголовок окна в кодировке UTF-8
-- **sfUint32 style** - стили окна (см sfWindowStyle)
-- **const sfContextSettings* settings** - установки контекста окна (см sfContextAttribute)
+- ** sfVideoMode mode ** - режим окна (см VideoMode.h)
+- ** const char* title ** - заголовок окна в кодировке UTF-8
+- ** sfUint32 style ** - стили окна (см sfWindowStyle)
+- ** const sfContextSettings* settings ** - установки контекста окна (см sfContextAttribute)
 
 ** Возвращаемое значение: sfWindow* ** - ссылка на созданное окно
 
@@ -97,10 +97,10 @@ CSFML_WINDOW_API sfWindow* sfWindow_create(
 
 Аргументы:
 
-- **sfVideoMode mode** - режим окна (см - VideoMode.h])
-- **const char* title** - заголовок окна в кодировке UTF-32
-- **sfUint32 style** - стили окна (см sfWindowStyle)
-- **const sfContextSettings* settings** - установки контекста окна (см sfContextAttribute)
+- ** sfVideoMode mode ** - режим окна (см - VideoMode.h])
+- ** const char* title ** - заголовок окна в кодировке UTF-32
+- ** sfUint32 style ** - стили окна (см sfWindowStyle)
+- ** const sfContextSettings* settings ** - установки контекста окна (см sfContextAttribute)
 
 ** Возвращаемое значение: sfWindow* ** - ссылка на созданное окно
 
@@ -122,8 +122,8 @@ CSFML_WINDOW_API sfWindow* sfWindow_createUnicode(
 
 Аргументы:
 
-- **sfWindowHandle handle** - элемент управления, из которого необходимо создать окно
-- **const sfContextSettings* settings** - расширенные параметры OpenGL
+- ** sfWindowHandle handle ** - элемент управления, из которого необходимо создать окно
+- ** const sfContextSettings* settings ** - расширенные параметры OpenGL
 
 ** Возвращаемое значение: sfWindow* ** - ссылка на созданное окно
 
@@ -206,8 +206,8 @@ CSFML_WINDOW_API sfContextSettings sfWindow_getSettings(const sfWindow* window);
 
 Аргументы:
 
-- **sfWindow* window** - окно, для которого проверяются события
-- **sfEvent* event** - ссылка на структуру описывающую события (в неё будет возвращено событие из очереди)
+- ** sfWindow* window ** - окно, для которого проверяются события
+- ** sfEvent* event ** - ссылка на структуру описывающую события (в неё будет возвращено событие из очереди)
 
 ** Возвращаемое значение: sfBool ** - sfTrue событие получено; sfFalse - события в очереди отсутствуют.
 
@@ -224,8 +224,8 @@ CSFML_WINDOW_API sfBool sfWindow_pollEvent(sfWindow* window, sfEvent* event);
 
 Аргументы:
 
-- **sfWindow* window** - окно, для которого проверяются события
-- **sfEvent* event** - ссылка на структуру описывающую события (в неё будет возвращено событие из очереди)
+- ** sfWindow* window ** - окно, для которого проверяются события
+- ** sfEvent* event ** - ссылка на структуру описывающую события (в неё будет возвращено событие из очереди)
 
 ** Возвращаемое значение: sfBool ** - sfTrue событие получено; sfFalse - события в очереди отсутствуют (всегда sfTrue).
 
@@ -240,7 +240,7 @@ CSFML_WINDOW_API sfBool sfWindow_waitEvent(sfWindow* window, sfEvent* event);
 
 Аргументы:
 
-- **const sfWindow* window** - ссылка на окно
+- ** const sfWindow* window ** - ссылка на окно
 
 ** Возвращаемое значение: sfVector2i ** - позиция окна (см Vector2.h - описание двумерного вектора)
 
@@ -251,14 +251,14 @@ CSFML_WINDOW_API sfVector2i sfWindow_getPosition(const sfWindow* window);
 
 ## sfWindow_setPosition - установить позицию окна
 
-**sfWindow_setPosition**
+** sfWindow_setPosition **
 
 Установить позицию окна на экране.
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **sfVector2i position** - новая позиция (см [[сsfml:сsfml-System.Vector2|Vector2.h - описание двумерного вектора]])
+- ** sfWindow* window ** - ссылка на окно
+- ** sfVector2i position ** - новая позиция (см [[сsfml:сsfml-System.Vector2|Vector2.h - описание двумерного вектора]])
 
 
 ** Возвращаемое значение: void **
@@ -274,7 +274,7 @@ CSFML_WINDOW_API void sfWindow_setPosition(sfWindow* window, sfVector2i position
 
 Аргументы:
 
-- **const sfWindow* window** - ссылка на окно
+- ** const sfWindow* window ** - ссылка на окно
 
 ** Возвращаемое значение: sfVector2u ** - размер окна (см Vector2.h - описание двумерного вектора)
 
@@ -289,8 +289,8 @@ CSFML_WINDOW_API sfVector2u sfWindow_getSize(const sfWindow* window);
 
 Аргументы:
 
-- **const sfWindow* window** - ссылка на окно
-- **sfVector2u size** - новый размер окна (см Vector2.h - описание двумерного вектора)
+- ** const sfWindow* window ** - ссылка на окно
+- ** sfVector2u size ** - новый размер окна (см Vector2.h - описание двумерного вектора)
 
 ** Возвращаемое значение: void **
 
@@ -305,8 +305,8 @@ CSFML_WINDOW_API void sfWindow_setSize(sfWindow* window, sfVector2u size);
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **const char* title** - заголовок
+- ** sfWindow* window ** - ссылка на окно
+- ** const char* title ** - заголовок
 
 ** Возвращаемое значение:void **
 
@@ -321,8 +321,8 @@ CSFML_WINDOW_API void sfWindow_setTitle(sfWindow* window, const char* title);
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **const char* title** - заголовок
+- ** sfWindow* window ** - ссылка на окно
+- ** const char* title ** - заголовок
 
 ** Возвращаемое значение:void **
 
@@ -339,10 +339,10 @@ CSFML_WINDOW_API void sfWindow_setUnicodeTitle(sfWindow* window, const sfUint32*
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **unsigned int width** - ширина иконки в пикселах
-- **unsigned int height** - высота иконки в пикселах
-- **const sfUint8* pixels** - ссылка на иконку в памяти
+- ** sfWindow* window ** - ссылка на окно
+- ** unsigned int width ** - ширина иконки в пикселах
+- ** unsigned int height ** - высота иконки в пикселах
+- ** const sfUint8* pixels ** - ссылка на иконку в памяти
 
 ** Возвращаемое значение: void **
 
@@ -357,8 +357,8 @@ CSFML_WINDOW_API void sfWindow_setIcon(sfWindow* window, unsigned int width, uns
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **sfBool visible** - отображение (sfTrue - показать; sfFalse - скрыть)
+- ** sfWindow* window ** - ссылка на окно
+- ** sfBool visible ** - отображение (sfTrue - показать; sfFalse - скрыть)
 
 ** Возвращаемое значение:void **
 
@@ -375,8 +375,8 @@ CSFML_WINDOW_API void sfWindow_setVisible(sfWindow* window, sfBool visible);
 
 Аргументы:
 
-- **sfWindow* window** - отсутствуют
-- **sfBool enabled** - включить/отключить синхронизацию (sfTrue - включить; sfFalse - отключить)
+- ** sfWindow* window ** - ссылка на окно
+- ** sfBool enabled ** - включить/отключить синхронизацию (sfTrue - включить; sfFalse - отключить)
 
 ** Возвращаемое значение: void **
 
@@ -391,8 +391,8 @@ CSFML_WINDOW_API void sfWindow_setVerticalSyncEnabled(sfWindow* window, sfBool e
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **sfBool visible** - отображение (sfTrue - показать; sfFalse - скрыть)
+- ** sfWindow* window ** - ссылка на окно
+- ** sfBool visible ** - отображение (sfTrue - показать; sfFalse - скрыть)
 
 ** Возвращаемое значение:void **
 
@@ -407,8 +407,8 @@ CSFML_WINDOW_API void sfWindow_setMouseCursorVisible(sfWindow* window, sfBool vi
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **sfBool grabbed** захват (sfTrue - захватить; sfFalse - отпустить)
+- ** sfWindow* window ** - ссылка на окно
+- ** sfBool grabbed ** захват (sfTrue - захватить; sfFalse - отпустить)
 
 ** Возвращаемое значение: void **
 
@@ -429,8 +429,8 @@ CSFML_WINDOW_API void sfWindow_setMouseCursorGrabbed(sfWindow* window, sfBool gr
 
 Аргументы:
 
-- **sfWindow* window** - отсутствуют
-- **const sfCursor* cursor** - курсор 
+- ** sfWindow* window ** - ссылка на окно
+- ** const sfCursor* cursor ** - курсор 
 
 ** Возвращаемое значение: void **
 
@@ -454,8 +454,8 @@ CSFML_WINDOW_API void sfWindow_setMouseCursor(sfWindow* window, const sfCursor* 
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **sfBool enabled** -  (sfTrue - включить; sfFalse - отключить)
+- ** sfWindow* window ** - ссылка на окно
+- ** sfBool enabled ** -  (sfTrue - включить; sfFalse - отключить)
 
 ** Возвращаемое значение: void **
 
@@ -472,8 +472,8 @@ CSFML_WINDOW_API void sfWindow_setKeyRepeatEnabled(sfWindow* window, sfBool enab
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **unsigned int limit** - частота кадров
+- ** sfWindow* window ** - ссылка на окно
+- ** unsigned int limit ** - частота кадров
 
 ** Возвращаемое значение: void **
 
@@ -490,8 +490,8 @@ CSFML_WINDOW_API void sfWindow_setFramerateLimit(sfWindow* window, unsigned int 
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **float threshold** - порог чувствительности в диапазоне [0, 100]
+- ** sfWindow* window ** - ссылка на окно
+- ** float threshold ** - порог чувствительности в диапазоне [0, 100]
 
 ** Возвращаемое значение: void **
 
@@ -510,8 +510,8 @@ CSFML_WINDOW_API void sfWindow_setJoystickThreshold(sfWindow* window, float thre
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
-- **sfBool active** - (sfTrue - активировать; sfFalse - деактивировать)
+- ** sfWindow* window ** - ссылка на окно
+- ** sfBool active ** - (sfTrue - активировать; sfFalse - деактивировать)
 
 ** Возвращаемое значение: sfBool ** - результат действия (sfTrue - удачно; sfFalse - неудачно)
 
@@ -532,7 +532,7 @@ CSFML_WINDOW_API sfBool sfWindow_setActive(sfWindow* window, sfBool active);
 
 Аргументы:
 
-- **const sfWindow* window** - ссылка на окно
+- ** const sfWindow* window ** - ссылка на окно
 
 ** Возвращаемое значение: void **
 
@@ -547,7 +547,7 @@ CSFML_WINDOW_API void sfWindow_requestFocus(sfWindow* window);
 
 Аргументы:
 
-- **const sfWindow* window** - ссылка на окно
+- ** const sfWindow* window ** - ссылка на окно
 
 ** Возвращаемое значение: sfBool ** - значение фокуса ввода для окна (sfTrue - имеет фокус ввода; sfFalse - не имеет фокус ввода)
 
@@ -562,7 +562,7 @@ CSFML_WINDOW_API sfBool sfWindow_hasFocus(const sfWindow* window);
 
 Аргументы:
 
-- **sfWindow* window** - ссылка на окно
+- ** sfWindow* window ** - ссылка на окно
 
 ** Возвращаемое значение: void **
 
@@ -577,7 +577,7 @@ CSFML_WINDOW_API void sfWindow_display(sfWindow* window);
 
 Аргументы:
 
-- **const sfWindow* window** - ссылка на окно
+- ** const sfWindow* window ** - ссылка на окно
 
 ** Возвращаемое значение: sfWindowHandle ** - дескриптор окна (см. WindowHandle.h)
 
