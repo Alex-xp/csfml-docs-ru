@@ -30,5 +30,11 @@
 
 
 - [Window/Types.h](Window/Types.h.md) - базовые типы для модуля Window
+- [Window/VideoMode.h](Window/VideoMode.h.md) - видеорежимы
+- [Window/Context.h](Window/Context.h.md) - описание контекста окна
+- [Window/WindowHandle.h](Window/WindowHandle.h.md) - дескриптор окна
 - [Window/Window.h](Window/Window.h.md) - основные функции для работы с окном
+- [Window/Cursor.h](Window/Cursor.h.md) - курсоры мышки
+
+
 
