@@ -35,6 +35,11 @@
 - [Window/WindowHandle.h](Window/WindowHandle.h.md) - дескриптор окна
 - [Window/Window.h](Window/Window.h.md) - основные функции для работы с окном
 - [Window/Cursor.h](Window/Cursor.h.md) - курсоры мышки
-
-
+- [Window/Keyboard.h](Window/Keyboard.h.md) - события клавиатуры
+- [Window/Mouse.h](Window/Mouse.h.md) - события мышки
+- [Window/Sensor.h](Window/Sensor.h.md) - события датчика сенсора
+- [Window/Touch.h](Window/Touch.h.md) - события датчика прикосновений (Touchpad)
+- [Window/JoystickIdentification.h](Window/JoystickIdentification.h.md) - определение джойстика
+- [Window/Joystick.h](Window/Joystick.h.md) - события джойстика
+- [Window/Event.h](Window/Event.h.md) - РАБОТА С СОБЫТИЯМИ
 
