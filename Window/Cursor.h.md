@@ -1,6 +1,6 @@
 # Cursor.h - курсоры мышки
 
-```#include <SFML/Window/Window/Cursor.h>```
+```#include <SFML/Window/Cursor.h>```
 <hr/>
 
 ```c

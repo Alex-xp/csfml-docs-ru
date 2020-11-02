@@ -1,6 +1,6 @@
 # Context.h - описание контекста окна
 
-```#include <SFML/Window/Window/Context.h>```
+```#include <SFML/Window/Context.h>```
 <hr/>
 
 
