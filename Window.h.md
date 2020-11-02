@@ -42,4 +42,5 @@
 - [Window/JoystickIdentification.h](Window/JoystickIdentification.h.md) - определение джойстика
 - [Window/Joystick.h](Window/Joystick.h.md) - события джойстика
 - [Window/Event.h](Window/Event.h.md) - РАБОТА С СОБЫТИЯМИ
+- [Window/Clipboard.h](Window/Clipboard.h.md) - работа с буфером обмена
 
