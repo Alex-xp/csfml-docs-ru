@@ -1,6 +1,5 @@
 # Color.h - описание цвета
 
-
 ```#include <SFML/Graphics/Color.h>```
 <hr/>
 

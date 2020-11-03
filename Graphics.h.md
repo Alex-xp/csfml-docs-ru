@@ -52,5 +52,6 @@
 
 - [Graphics/Types.h](Graphics/Types.h.md)  - описание типов для модуля Graphics
 - [Graphics/Color.h](Graphics/Color.h.md) - описание цвета
+- [Graphics/Rect.h](Graphics/Rect.h.md) - прямоугольная область
 
 
