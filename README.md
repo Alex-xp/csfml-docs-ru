@@ -33,6 +33,12 @@
 - [Window/Event.h](Window/Event.h.md) - РАБОТА С СОБЫТИЯМИ
 - [Window/Clipboard.h](Window/Clipboard.h.md) - работа с буфером обмена
 
+# Модуль Graphics
+
+- [Graphics.h](Graphics.h.md)- описание цвета
+- [Graphics/Types.h](Graphics/Types.h.md)  - описание типов для модуля Graphics
+- [Graphics/Color.h](Graphics/Color.h.md) - описание цвета
+
 
 
 PS: Перевод уже готов на 100%, но в связи с переформатированием текстовой информации, его перенос на github может занять некоторое время.
