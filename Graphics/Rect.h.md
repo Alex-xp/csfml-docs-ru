@@ -70,7 +70,7 @@ CSFML_GRAPHICS_API sfBool sfIntRect_contains(const sfIntRect* rect, int x, int y
 
 - ``rect1`` - область 1
 - ``rect2`` - область 2
-- ``intersection`` -  заполнение перекрывающейся области (или NULL)
+- ``intersection`` -  заполнение перекрывающейся области (или NULL) - если указано, тогда сюда вернет область перекрытия
 
 **Возвращаемое значение:** ``sfBool`` - результат (sfTrue - пересечение есть; sfFalse - пересечения нет).
 
