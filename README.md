@@ -35,7 +35,7 @@
 
 # Модуль Graphics
 
-- [Graphics.h](Graphics.h.md)- описание цвета
+- [Graphics.h](Graphics.h.md)
 - [Graphics/Types.h](Graphics/Types.h.md)  - описание типов для модуля Graphics
 - [Graphics/Color.h](Graphics/Color.h.md) - описание цвета
 
