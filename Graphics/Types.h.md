@@ -97,7 +97,7 @@ typedef struct sfTexture sfTexture;
 ```
 <hr/>
 
-## sfTransformable - трансформация
+## sfTransformable - объект управления преобразованиями
 
 ```c
 typedef struct sfTransformable sfTransformable;

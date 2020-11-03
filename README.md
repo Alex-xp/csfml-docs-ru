@@ -41,7 +41,8 @@
 - [Graphics/Color.h](Graphics/Color.h.md) - описание цвета
 - [Graphics/Rect.h](Graphics/Rect.h.md) - прямоугольная область
 - [Graphics/Transform.h](Graphics/Transform.h.md) - преобразования
+- [Graphics/Transformable.h](Graphics/Transformable.h.md) - изменяемость
 
 
 
-PS: Перевод уже готов на 100%, но в связи с переформатированием текстовой информации, его перенос на github может занять некоторое время.
+
