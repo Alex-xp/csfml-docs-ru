@@ -18,6 +18,7 @@
 
 ## Модуль Window
 
+- [Window.h](Window.h.md)
 - [Window/Types.h](Window/Types.h.md) - базовые типы для модуля Window
 - [Window/VideoMode.h](Window/VideoMode.h.md) - видеорежимы
 - [Window/Context.h](Window/Context.h.md) - описание контекста окна
