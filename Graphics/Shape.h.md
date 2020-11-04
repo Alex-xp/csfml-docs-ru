@@ -123,7 +123,7 @@ CSFML_GRAPHICS_API void sfShape_setOrigin(sfShape* shape, sfVector2f origin);
 
 Аргументы:
 
-- ``sfShape* shape`` - фигура
+- ``const sfShape* shape`` - фигура
 
 **Возвращаемое значение:** ``sfVector2f`` - позиция
 
@@ -136,7 +136,7 @@ CSFML_GRAPHICS_API sfVector2f sfShape_getPosition(const sfShape* shape);
 
 Аргументы:
 
-- ``sfShape* shape`` - фигура
+- ``const sfShape* shape`` - фигура
 
 **Возвращаемое значение:** ``float`` - угол в градусах
 
@@ -149,7 +149,7 @@ CSFML_GRAPHICS_API float sfShape_getRotation(const sfShape* shape);
 
 Аргументы:
 
-- ``sfShape* shape`` - фигура
+- ``const sfShape* shape`` - фигура
 
 **Возвращаемое значение:** ``sfVector2f`` - масштаб
 
@@ -164,7 +164,7 @@ CSFML_GRAPHICS_API sfVector2f sfShape_getScale(const sfShape* shape);
 
 Аргументы:
 
-- ``sfShape* shape`` - фигура
+- ``const sfShape* shape`` - фигура
 
 **Возвращаемое значение:** ``sfVector2f`` - точка трансформации
 
@@ -197,7 +197,7 @@ CSFML_GRAPHICS_API void sfShape_rotate(sfShape* shape, float angle);
 ```
 <hr/>
 
-## sfShape_scale 
+## sfShape_scale - изменить масштаб объекта
 
 В отличие от sfShape_setScale, эта функция умножает текущий масштаб объекта, а не перезаписывает.
 
@@ -215,7 +215,7 @@ CSFML_GRAPHICS_API void sfShape_scale(sfShape* shape, sfVector2f factors);
 
 Аргументы:
 
-- ``sfShape* shape`` - фигура
+- ``const sfShape* shape`` - фигура
 
 **Возвращаемое значение:** ``sfTransform`` - матрица преобразований 3x3
 
@@ -228,7 +228,7 @@ CSFML_GRAPHICS_API sfTransform sfShape_getTransform(const sfShape* shape);
 
 Аргументы:
 
-- ``sfShape* shape`` - фигура
+- ``const sfShape* shape`` - фигура
 
 **Возвращаемое значение:** ``sfTransform`` - матрица преобразований 3x3
 
