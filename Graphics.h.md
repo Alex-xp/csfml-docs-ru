@@ -55,5 +55,6 @@
 - [Graphics/Rect.h](Graphics/Rect.h.md) - прямоугольная область
 - [Graphics/Transform.h](Graphics/Transform.h.md) - преобразования
 - [Graphics/Transformable.h](Graphics/Transformable.h.md) - изменяемость
+- [Graphics/Shape.h](Graphics/Shape.h.md) - простая геометрическая фигура
 
 
