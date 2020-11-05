@@ -44,6 +44,8 @@
 - [Graphics/Transformable.h](Graphics/Transformable.h.md) - изменяемость
 - [Graphics/Shape.h](Graphics/Shape.h.md) - простая геометрическая фигура
 - [Graphics/RectangleShape.h](Graphics/RectangleShape.h.md) - прямоугольная фигура
+- [Graphics/CircleShape.h](Graphics/CircleShape.h.md) - окружность
+- [Graphics/ConvexShape.h](Graphics/ConvexShape.h.md) - пользовательская геометрическая форма
 
 
 
