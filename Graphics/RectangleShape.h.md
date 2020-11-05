@@ -75,6 +75,7 @@ CSFML_GRAPHICS_API void sfRectangleShape_setPosition(sfRectangleShape* shape, sf
 
 - ``sfRectangleShape* shape`` - фигура
 - ``float angle`` - угол в градусах
+
 ```c
 CSFML_GRAPHICS_API void sfRectangleShape_setRotation(sfRectangleShape* shape, float angle);
 ```
@@ -117,7 +118,7 @@ CSFML_GRAPHICS_API void sfRectangleShape_setOrigin(sfRectangleShape* shape, sfVe
 
 Аргументы:
 
-- ``sfRectangleShape* shape`` - фигура
+- ``const sfRectangleShape* shape`` - фигура
 
 **Возвращаемое значение:** ``sfVector2f`` - позиция
 
@@ -183,7 +184,7 @@ CSFML_GRAPHICS_API void sfRectangleShape_move(sfRectangleShape* shape, sfVector2
 
 Аргументы:
 
-- ``sfShape* shape`` - фигура
+- ``sfRectangleShape* shape`` - фигура
 - ``float angle`` - угол поворота в градусах
 
 ```c
@@ -437,7 +438,8 @@ CSFML_GRAPHICS_API sfVector2f sfRectangleShape_getSize(const sfRectangleShape* s
 
 ## sfRectangleShape_getLocalBounds - получить локальный ограничивающий прямоугольник фигуры
 
-Возвращенный прямоугольник имеет локальные координаты, и это означает, что он игнорирует все преобразования (перемещение, поворот, масштаб и т. д.), применяемые к объекту. Другими словами, эта функция возвращает границы объекта в системе его координат.
+Возвращенный прямоугольник имеет локальные координаты, и это означает, что он игнорирует все преобразования (перемещение, поворот, масштаб и т. д.), применяемые к объекту. 
+Другими словами, эта функция возвращает границы объекта в системе его координат.
 
 Аргументы:
 
@@ -452,7 +454,8 @@ CSFML_GRAPHICS_API sfFloatRect sfRectangleShape_getLocalBounds(const sfRectangle
 
 ## sfRectangleShape_getGlobalBounds - получить глобальный ограничивающий прямоугольник фигуры
 
-Возвращенный прямоугольник имеет глобальные координаты, и это означает, что он учитывает все преобразования (перемещение, поворот, масштаб и т. Д.), Применяемые к объекту. Другими словами, эта функция возвращает границы спрайта в глобальной системе координат 2D-мира.
+Возвращенный прямоугольник имеет глобальные координаты, и это означает, что он учитывает все преобразования (перемещение, поворот, масштаб и т. Д.), Применяемые к объекту. 
+Другими словами, эта функция возвращает границы спрайта в глобальной системе координат 2D-мира.
 
 Аргументы:
 
