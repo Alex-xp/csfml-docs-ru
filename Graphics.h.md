@@ -59,5 +59,7 @@
 - [Graphics/RectangleShape.h](Graphics/RectangleShape.h.md) - прямоугольная фигура
 - [Graphics/CircleShape.h](Graphics/CircleShape.h.md) - окружность
 - [Graphics/ConvexShape.h](Graphics/ConvexShape.h.md) - пользовательская геометрическая форма
+- [Graphics/BlendMode.h](Graphics/BlendMode.h.md) - правила смешивания цветов
+- [Graphics/Texture.h](Graphics/Texture.h.md) - работа с текстурой
 
 
